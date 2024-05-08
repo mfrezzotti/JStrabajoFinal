@@ -1,0 +1,21 @@
+/*Aplicado en la pagina Polarizados CARDS CON GRID + FLEX*/
+
+.contenedorCardsPolarizados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.card {
+    @include flex-column;
+    padding: 20px;
+    background-color: black;
+}
+
+.imgCardPolarizado {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}

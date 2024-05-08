@@ -1,0 +1,26 @@
+/*FOOTER*/
+
+.footerRedes {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-youtube {
+    color: $color-verdelima;
+}
+
+.logoRedes {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer h3 {
+    font-size: 15px;
+}
+
+.logoRedes a {
+    list-style: none;
+}

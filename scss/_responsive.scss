@@ -1,0 +1,51 @@
+/* Medias queries: hacemos responsive las cards */
+
+/* vista tablet */
+
+@media (max-width: 1023px) {
+    .contenedorCardsPolarizados {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+}
+
+/* vista mobile */
+
+@media (max-width: 768px) {
+    .contenedorCardsPolarizados {
+        grid-template-columns: 1fr;
+    }
+
+    .card p {
+        text-align: $alineacion-texto;
+    }
+}
+
+/* CONTACTO RESPONSIVE */
+
+@media (max-width: 1023px) {
+    .contenedorContacto {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+    }
+
+    iframe {
+        margin-left: 20px;
+        width: 90%;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .contenedorContacto {
+        grid-template-columns: 1fr;
+    }
+}

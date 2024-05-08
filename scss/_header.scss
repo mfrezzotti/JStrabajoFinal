@@ -1,0 +1,30 @@
+/*HEADER*/
+
+.menuNav a {
+    @include anclas;
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.5s;
+  
+    &:hover {
+      background-color: black;
+      color: $color-verdelima;
+    }
+  }
+  
+  .navbar-toggler {
+    border: none;
+  
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  
+  .logo {
+    width: 200px;
+  }
+  
+  .encabezado {
+    background-color: black;
+  }
+  

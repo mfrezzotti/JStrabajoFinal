@@ -1,0 +1,24 @@
+/* MAIN*/
+
+h1 {
+    color: $color-verdelima;
+    font-weight: bold;
+    text-align: $alineacion-texto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: $color-blanco;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+main h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blanco {
+    color: $color-blanco;
+}

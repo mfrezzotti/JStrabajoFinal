@@ -1,0 +1,11 @@
+@mixin anclas {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

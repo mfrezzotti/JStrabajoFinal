@@ -1,0 +1,19 @@
+/*VIDEO RESPONSIVE*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0px;
+
+    iframe {
+        /*ejemplo de la caja flotante,para que se adapte a todas las pantallas*/
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 90%;
+        height: 90%;
+    }
+}

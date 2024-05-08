@@ -1,0 +1,21 @@
+/**** Box Modeling****/
+
+.contenedorBotones {
+    display: inline-block;
+    box-sizing: border-box;
+    background: linear-gradient(to left, #adfe1f, #5be35b);
+    border: 1px solid $color-blanco;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+
+    p {
+        color: black;
+        text-align: $alineacion-texto;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        margin: 5px 5px;
+    }
+}

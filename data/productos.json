@@ -1,0 +1,39 @@
+[
+    {
+        "titulo": "Shampoo Toxic Wap",
+        "precio": 2200,
+        "img": "../imagenes/shampootoxic.webp"
+    },
+
+    {
+        "titulo": "Sellador ceramico",
+        "precio": 45000,
+        "img": "../imagenes/selladorceramico.webp"
+    },
+
+    {
+        "titulo": "Pulidor corte intermedio",
+        "precio": 32000,
+        "img": "../imagenes/merzerna-pulidor-corte-intermedio.webp"
+    },
+
+    {
+        "titulo": "Cera rápida",
+        "precio": 25000,
+        "img": "../imagenes/cerarapida.webp"
+    },
+
+    {
+        "titulo": "Cera para cueros",
+        "precio": 52000,
+        "img": "../imagenes/ceraparacueros.webp" 
+    },
+
+    {
+        "titulo": "Limpia cristales antiempañado",
+        "precio": 12000,
+        "img": "../imagenes/limpiacristales.webp"
+    }
+
+
+]
